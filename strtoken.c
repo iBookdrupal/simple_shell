@@ -1,10 +1,10 @@
 include "shell.h"
 /**
- * _sch - search if a char is inside a string
- * @s: string to review
- * @c: char to find
- * Return: 1 if success 0 for failure
- */
+* _sch - search if a char is inside a string
+* @s: string to review
+* @c: char to find
+* Return: 1 if success 0 for failure
+*/
 int _sch(char *s, char c)
 {
 	int cont = 0;
@@ -23,11 +23,11 @@ int _sch(char *s, char c)
 		return (0);
 }
 /**
- * _strtoky - function that cut a string into tokens depending of the delimit
- * @s: string to cut in parts
- * @d: delimiters
- * Return: first partition
- */
+* _strtoky - function that cut a string into tokens depending of the delimit
+* @s: string to cut in parts
+* @d: delimiters
+* Return: first partition
+*/
 char *_strtoky(char *s, char *d)
 {
 	static char *ultimo;
