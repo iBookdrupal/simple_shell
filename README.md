@@ -1,5 +1,5 @@
 # simple_shell
-0x16. C - Simple Shell
+## 0x16. C - Simple Shell
 
 General
 Who designed and implemented the original Unix operating system
