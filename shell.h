@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <signal.h>
-
+#include <stddef.h>
 
 /*global variables*/
 

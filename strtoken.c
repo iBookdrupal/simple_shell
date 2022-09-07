@@ -1,4 +1,4 @@
-include "shell.h"
+#include "shell.h"
 /**
 * _sch - search if a char is inside a string
 * @s: string to review

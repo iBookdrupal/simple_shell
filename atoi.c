@@ -21,15 +21,14 @@ int _atoi(char *s)
 	}
 	for (b = a; b < cont1; b++)
 	{
-		if (!(*(s + b) >= '0' && *(s + b) <= '9');
-		break;
+		if (!(*(s + b) >= '0' && *(s + b) <= '9'))
+			break;
 	}
 	for (c = 0; c < a; c++)
 	{
 
 		if (*(s + c) == '-')
-		;
-		aux2 = aux2 * (-1);
+			aux2 = aux2 * (-1);
 	}
 	tam = b - a;
 
