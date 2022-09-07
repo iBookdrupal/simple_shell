@@ -1,9 +1,9 @@
 include "shell.h"
 /**
- * print_number - prints all natural numbers
- * @n: parameter to print
- * Return: Always 0
- */
+* print_number - prints all natural numbers
+* @n: parameter to print
+* Return: Always 0
+*/
 void print_number(int n)
 {
 	unsigned int j, count = 1;
@@ -12,6 +12,7 @@ void print_number(int n)
 
 	var2 = n;
 	num = var2;
+
 	while (num > 9)
 	{
 		num = num / 10;
